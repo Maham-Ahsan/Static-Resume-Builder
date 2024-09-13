@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: #f0f1f1;
+    border-radius: 6px;
+    box-shadow:#a17e7e;
+    padding: 20px;
+}
+
+.profilePicture{
+    display: block;
+    margin: auto;
+    border: 2px solid rgb(129, 103, 129);
+    box-shadow: o 4px 8px blueviolet;
+    border-radius: 30px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+fieldset{
+    border: 2px solid rgb(44, 15, 44) ;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing:content-box;
+    background-color: #f7f5f6;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+legend{
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select, textarea{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: #856a9b;
+}
+
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(129, 103, 129);
+    border-radius: 6px;
+    box-shadow: #a17e7e;
+    background-color: #f7f5f6;
+}
+
+#resumeOutput h2{
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
